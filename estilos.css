@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alejandro Cuellar | Rails Developer en Medellín</title>
+    <link rel="icon" type="image/png" href="images/favicon1.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">  
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="images/logob.png" height="40" alt="Logo de Alejandro Cuellar" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Alejandro Cuellar</strong> <br /> <strong>Full Stack Rails Developer</strong> <br /> en Formación
+        </h1>
+        <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> 
+      </div>
+    </section> 
+    <section id="about-me" class="portfolio">      
+      <div class="container">
+        <h2>Acerca de mi</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Información </h3> <br><br><br>     
+          <p class="project-date"><strong>Nombre:</strong> Alejandro Cuellar Huertas</p>
+          <p class="project-date"><strong>Fecha de Nacimiento:</strong> 06/05/1982</p>
+          <p class="project-date"><strong>Telefono:</strong> 304 475 9796</p> 
+          <p class="project-date"><strong>Correo:</strong> acuellarh@gmail.com</p>
+          <p class="project-date">
+            <strong>linkedin:</strong> <a href="https://www.linkedin.com/in/alejandro-cuellar-27a47257/" target="_blank">Ver perfil en linkedin </a>
+          </p>
+        </div>
+        <div class="project-imageContainer">
+          <p class="project-description"> Soy una persona responsable, dinámica, con sólida formación ética, respetuosa, alta capacidad de escucha, perseverante, abierto al  cambio.</p>
+          <p class="project-description"> Desarrollador full stack en Ruby on Rails, especialista en gestión para ingenieros e ingeniero de telecomunicaciones. Conocimientos en redes, tecnología de la información, compras y gestión de inventarios.</p>
+          <p class="project-description"> A lo largo de mi experiencia, he desarrollado habilidades que me permiten comprender los procesos sistemáticamente y proponer soluciones compatibles con la tecnología a través del diseño y desarrollo de plataformas web para automatizar procesos y proporcionar herramientas para hacer el trabajo de una mejor manera.</p>
+        </div>
+      </article> 
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Stack Tecnológico</h3>
+            <p class="project-description"> El stack tecnológico es el estudiado en el bootcamp de makeitreal para el programa de Full Stack en Rails,
+              se compone de HTML, CSS, BOOTSTRAP, JQUERY, JAVASCRIPT, RUBY y RAILS, lo cual se complementa con una serie de recursos y proyectos que se realizan, el detalle se puede consultar el el siguiente enlace.                      
+            </p>
+            <p class="project-url"><small> <a href="https://makeitreal.camp/u/satreuh" target="_blank">Detalle Stack Bootcamp Makeit Reak</a> </small></p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="450" src="images/skills2.png" alt="Imagen skill">
+          </figure>
+        </article>
+      </div>      
+    </section>
+    <section id="portafolio" class="portfolio">      
+      <div class="container">
+        <h2>Portafolio</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Sitio web estático - Fisioterapeuta</h3>
+          <h6 class="project-course">HTML / CSS / UNIX / APACHE </h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 02/03/2019</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="../FisioterapeutaLorenaCuellar/" target="_blank">Sitio Web - Lorena Cuellar Fisioterapeuta</a> </small></p>
+          <p class="project-description">El sitio web estático de la Fisioterapeuta Lorena Cuellar es el resultado de un proyecto que se debía desarrollar como requisito
+            para aplicar a la escuela de desarrollo de software Holberton. En este proyecto se utilizaron conceptos de HTML5, CSS, Unix Basico, Configuración de servidor APACHE, instalación 
+            del complemento DISQUS para el manejo de discusiones, se insertaron Tweets en el contenido y se habilitaron los enlaces a redes sociales.
+          </p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="450" src="images/Fisioterapia-Lorena-cuellar.png" alt="Imagen Proyecto Fisioterapia-Lorena-cuellar">
+        </figure>
+      </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Blog</h3>
+            <h6 class="project-course">RAILS / DEVICE GEM / BOOTSTRAP / HTML / CSS</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 14/06/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://polar-ridge-75032.herokuapp.com/posts" target="_blank">Sitio web en Heroku </a> </small></p> 
+            <p class="project-url"><small><strong>Consultalo en github:</strong> <a href="https://github.com/acuellarh/Reto_SuperBlog" target="_blank">https://github.com/acuellarh/Reto_SuperBlog</a> </small></p>                 
+            <p class="project-description">El proyecto del SuperBlog en Ruby on Rails, es el resultado de un proyecto para la academia de desarrollo Makeit Real, que consistió en construir
+              un blog colaborativo en donde cualquier persona se pudiera registrar y publicar nuevos Posts. Los usuarios deben poder registrarse, ingresar, 
+              listar los posts, ver los posts, crear posts, editar los posts, eliminar los posts y comentarlos.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="450" src="images/Blog-Alejandro-Cuellar.png" alt="Imagen proyecto Blog en Makeit Real">
+          </figure>
+        </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Flow Overstack</h3>
+            <h6 class="project-course">RAILS / AJAX / JQUERY / DEVICE GEM / BOOTSTRAP / HTML / CSS</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 14/06/2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://flow-over-stack-ach.herokuapp.com/" target="_blank">Sitio web en Heroku </a> </small></p> 
+            <p class="project-url"><small><strong>Consultalo en github:</strong> <a href="https://github.com/acuellarh/FlowOverstackv2" target="_blank">https://github.com/acuellarh/FlowOverstackv2</a> </small></p>                 
+            <p class="project-description">Este proyecto consiste en construir un clon de StackOverflow, un sitio muy popular de preguntas y respuestas de programación.Para solucionarlo, se implementó
+              asociaciones polimorficas ,se configuro protección de acceso a las vistas, 
+              se utilizo Ajax y Jquery con el fin de crear las respuestas y los comentarios,
+              se implementó un metodo en el modelo de answer y questions para la caracteristica de los votos y
+              se implemento la opción de busqueda tanto en el contenido como el titulo de la pregunta                 
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="450" src="images/image_flow.png" alt="Imagen proyecto Flow en Makeit Real">
+          </figure>
+        </article>
+      </div>      
+    </section>
+
+    <section id="eventos" class="">      
+      <div class="container">
+        <h2>Experiencia</h2>
+      <article class="project">
+        <div class="">
+          <h3 class="project-title">Tigo-Une</h3>
+          <p class="project-date"><strong>2014 - 2019</strong></p>
+          <p class=""><strong>Cargo:</strong> Ingeniero de Aseguramiento</p>
+          <p class="project-description">Durante dos años estuve apoyando el área de aseguramiento apoyando a los compañeros de factibilidades e instalaciones de servicios empresariales con el fin de cumplir con los requerimientos colocados por el área comercial. Durante este periodo desarrollé habilidades administrativas, manejo de personal, elaboración de informes, gestión de presupuesto, trabajo bajo presión y trabajo en equipo.</p>
+          <p class="project-description">En los siguientes años he trabajado apoyando en la gestión de compras, gestionando con las diferentes areas de la empresa para asegurar que se tengan los equipos necesarios para la implementación de servicios de portafolio avanzado para clientes empresariales, durante esta labor he estado apoyando con la elaboración de los requerimientos para el desarrollo de plataformas web para el control de inventario.</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="">
+          <h3 class="project-title">Huawei Technologies Co. Ltda.</h3>
+          <p class="project-date"><strong>2009 - 2014</strong></p>
+          <p class=""><strong>Cargo:</strong> Ingeniero IT</p>
+          <p class="project-description">Responsable del soporte de redes LAN, instalación, configuración, gestión y solución de problemas en la plataforma LAN y TI de Huawei Colombia y Norte de Latinoamérica. Encargado de la configuración de switches, routers, controladoras inalámbricas, Access Points , PBX, dispositivos de VOIP, videoconferencias, Telepresencias Y CCTV.</p>
+          <p class="project-description">Líder de equipo de IT en Colombia, responsable de atención a usuarios VIP. Durante mis años de trabajo en Huawei estuve en varios proyectos apoyando en planeación, ejecución, control y cierre exitoso de proyectos de la plataforma de TI e implementación de oficinas nuevas de la compañía. De los mayores logros a resaltar fue el trabajo en equipo y la mejora considerable del idioma Ingles.</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="">
+          <h3 class="project-title">ISSC- Subsidiaria IBM </h3>
+          <p class="project-date"><strong>2009 - 2010</strong></p>
+          <p class=""><strong>Cargo:</strong> Agente de Soporte en Sitio </p>
+          <p class="project-description">Encargado del soporte a usuarios finales en las oficinas de la direccón general del banco BBVA, encargado de la configuración, instalación de aplicativos bancarios. Durante este trabajo desarrollé habilidades para el manejo de sistemas operativos Windows y Linux básico </p>
+        </div>
+      </article>
+      </div>      
+    </section>
+    <section id="" class="">      
+        <div class="container">
+          <h2>Formación Profesional</h2>
+          <article class="project1">
+            <div class="">
+              <h3 class="project-title">Rails Full Stack Developer</h3>
+              <p class=""><strong>BootCamp Make it Real</strong></p>
+              <p class=""> Medellín 2019</p>
+            </div>
+            <br>
+            <div class="">
+              <h3 class="project-title">Especialista en Gerencia para Ingenieros</h3>
+              <p class=""><strong>Universidad Pontificia Bolivariana</strong></p>
+              <p class=""> Medellín 2016</p>
+            </div>
+            <div class="">
+              <h3 class="project-title">Ingeniero en Telecomunicaciones</h3>
+              <p class=""><strong>Universidad Militar Nueva Granada</strong></p>
+              <p class=""> Bogotá 2007</p>
+            </div>
+          </article>  
+        </div>              
+      </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <p class="">                   
+            <a href="https://api.whatsapp.com/send?phone=573044759796&amp;text=Hola!%20Alejandro%20Trabajamos%20Juntos?" target="_blank">            
+             <h3>Contáctame a traves de WhatsApp</h3>             
+            </a>
+          </p> 
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/acuellarh" target="_blank" class="social-link twitter"></a>
+          <a href="https://www.facebook.com/alejandro.c.huertas" target="_blank" class="social-link facebook"></a>
+          <a href="https://github.com/acuellarh" target="_blank" class="social-link github"></a>
+          <a href="https://instagram.com/acuellarh" target="_blank" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>
+            Designed with love by <a href="https://twitter.com/thespianartist" target="_blank">@thespianartist</a>
+          </p>
+        </div>
+      </div>
+    </footer> 
+    <script>
+
+
+    const ipad = window.matchMedia('screen and (max-width:767px)');//Función que recibe una consulta a los medios  
+    //selector para traer la clase menu
+    const menu = document.querySelector('.menu');
+    // console.log(menu);
+    //selector para detectar las variaciones en el boton
+    const burgerButton = document.querySelector('#burger-menu'); // Se debe crear un selector de ID los cuales se llaman con #
+    // console.log(burgerButton);
+    //función para detectar eventos, para este caso un click   
+
+    ipad.addListener(validation); // Adiciona un escuchador
+
+    function validation (event){
+      // console.log(event.matches);
+      if(event.matches){  // Si el matches se "true", es decir, si detecta pantalla inferior a 767
+        burgerButton.addEventListener('click',hideShow); // Encendemos el EventListener
+      }else
+      burgerButton.removeEventListener('click',hideShow); // Apagamos el EventListener
+    }  
+//
+    validation(ipad);//Objetivo es forzar esta función apenas carga la página, 
+                    //dado que antes requiria de que se ejecutara un resize
+
+    function hideShow(){  
+      if(menu.classList.contains('is-active')){
+      menu.classList.remove('is-active'); //A la clase 'menu' añada el selector 'is-active'
+      }
+       else
+        menu.classList.add('is-active'); //A la clase 'menu' añada el selector 'is-active'
+    }
+    </script>
+  </body>
+</html>
