@@ -207,7 +207,40 @@
           </p>
         </div>
       </div>
-    </footer> 
+    </footer>
+    <script>
+
+
+    const ipad = window.matchMedia('screen and (max-width:767px)');//Función que recibe una consulta a los medios  
+    //selector para traer la clase menu
+    const menu = document.querySelector('.menu');
+    // console.log(menu);
+    //selector para detectar las variaciones en el boton
+    const burgerButton = document.querySelector('#burger-menu'); // Se debe crear un selector de ID los cuales se llaman con #
+    // console.log(burgerButton);
+    //función para detectar eventos, para este caso un click   
+
+    ipad.addListener(validation); // Adiciona un escuchador
+
+    function validation (event){
+      // console.log(event.matches);
+      if(event.matches){  // Si el matches se "true", es decir, si detecta pantalla inferior a 767
+        burgerButton.addEventListener('click',hideShow); // Encendemos el EventListener
+      }else
+      burgerButton.removeEventListener('click',hideShow); // Apagamos el EventListener
+    }  
+//
+    validation(ipad);//Objetivo es forzar esta función apenas carga la página, 
+                    //dado que antes requiria de que se ejecutara un resize
+
+    function hideShow(){  
+      if(menu.classList.contains('is-active')){
+      menu.classList.remove('is-active'); //A la clase 'menu' añada el selector 'is-active'
+      }
+       else
+        menu.classList.add('is-active'); //A la clase 'menu' añada el selector 'is-active'
+    }
+    </script>
   </body>
 </html>
 
