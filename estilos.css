@@ -1,245 +1,626 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Alejandro Cuellar | Rails Developer en Medellín</title>
-    <link rel="icon" type="image/png" href="images/favicon1.png" />
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">  
-    <link rel="stylesheet" href="css/estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <i class="icon-menu burger-button" id="burger-menu"></i>
-    <header class="header">
-      <div class="container">
-        <figure class="logo">
-          <img src="images/logob.png" height="40" alt="Logo de Alejandro Cuellar" />
-        </figure>
-        <nav class="menu">
-          <ol>
-            <li>
-              <a class="link" href="#portafolio">Portafolio</a>
-            </li>
-            <li>
-              <a class="link" href="#eventos">Experiencia</a>
-            </li>
-            <li>
-              <a class="link" href="#contacto">Trabajemos juntos</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="container">
-        <h1>
-          Hola! Soy <strong>Alejandro Cuellar</strong> <br /> <strong>Full Stack Rails Developer</strong> <br /> en Formación
-        </h1>
-        <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> 
-      </div>
-    </section> 
-    <section id="about-me" class="portfolio">      
-      <div class="container">
-        <h2>Acerca de mi</h2>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Información </h3> <br><br><br>     
-          <p class="project-date"><strong>Nombre:</strong> Alejandro Cuellar Huertas</p>
-          <p class="project-date"><strong>Fecha de Nacimiento:</strong> 06/05/1982</p>
-          <p class="project-date"><strong>Telefono:</strong> 304 475 9796</p> 
-          <p class="project-date"><strong>Correo:</strong> acuellarh@gmail.com</p>
-          <p class="project-date">
-            <strong>linkedin:</strong> <a href="https://www.linkedin.com/in/alejandro-cuellar-27a47257/" target="_blank">Ver perfil en linkedin </a>
-          </p>
-        </div>
-        <div class="project-imageContainer">
-          <p class="project-description"> Soy una persona responsable, dinámica, con sólida formación ética, respetuosa, alta capacidad de escucha, perseverante, abierto al  cambio.</p>
-          <p class="project-description"> Desarrollador full stack en Ruby on Rails, especialista en gestión para ingenieros e ingeniero de telecomunicaciones. Conocimientos en redes, tecnología de la información, compras y gestión de inventarios.</p>
-          <p class="project-description"> A lo largo de mi experiencia, he desarrollado habilidades que me permiten comprender los procesos sistemáticamente y proponer soluciones compatibles con la tecnología a través del diseño y desarrollo de plataformas web para automatizar procesos y proporcionar herramientas para hacer el trabajo de una mejor manera.</p>
-        </div>
-      </article> 
-      <article class="project">
-          <div class="project-details">
-            <h3 class="project-title">Stack Tecnológico</h3>
-            <p class="project-description"> El stack tecnológico es el estudiado en el bootcamp de makeitreal para el programa de Full Stack en Rails,
-              se compone de HTML, CSS, BOOTSTRAP, JQUERY, JAVASCRIPT, RUBY y RAILS, lo cual se complementa con una serie de recursos y proyectos que se realizan, el detalle se puede consultar el el siguiente enlace.                      
-            </p>
-            <p class="project-url"><small> <a href="https://makeitreal.camp/u/satreuh" target="_blank">Detalle Stack Bootcamp Makeit Reak</a> </small></p>
-          </div>
-          <figure class="project-imageContainer">
-            <img class="project-image" width="450" src="images/skills2.png" alt="Imagen skill">
-          </figure>
-        </article>
-      </div>      
-    </section>
-    <section id="portafolio" class="portfolio">      
-      <div class="container">
-        <h2>Portafolio</h2>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Sitio web estático - Fisioterapeuta</h3>
-          <h6 class="project-course">HTML / CSS / UNIX / APACHE </h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 02/03/2019</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="../FisioterapeutaLorenaCuellar/" target="_blank">Sitio Web - Lorena Cuellar Fisioterapeuta</a> </small></p>
-          <p class="project-description">El sitio web estático de la Fisioterapeuta Lorena Cuellar es el resultado de un proyecto que se debía desarrollar como requisito
-            para aplicar a la escuela de desarrollo de software Holberton. En este proyecto se utilizaron conceptos de HTML5, CSS, Unix Basico, Configuración de servidor APACHE, instalación 
-            del complemento DISQUS para el manejo de discusiones, se insertaron Tweets en el contenido y se habilitaron los enlaces a redes sociales.
-          </p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" width="450" src="images/Fisioterapia-Lorena-cuellar.png" alt="Imagen Proyecto Fisioterapia-Lorena-cuellar">
-        </figure>
-      </article>
-      <article class="project">
-          <div class="project-details">
-            <h3 class="project-title">Blog</h3>
-            <h6 class="project-course">RAILS / DEVICE GEM / BOOTSTRAP / HTML / CSS</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 14/06/2019</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://polar-ridge-75032.herokuapp.com/posts" target="_blank">Sitio web en Heroku </a> </small></p> 
-            <p class="project-url"><small><strong>Consultalo en github:</strong> <a href="https://github.com/acuellarh/Reto_SuperBlog" target="_blank">https://github.com/acuellarh/Reto_SuperBlog</a> </small></p>                 
-            <p class="project-description">El proyecto del SuperBlog en Ruby on Rails, es el resultado de un proyecto para la academia de desarrollo Makeit Real, que consistió en construir
-              un blog colaborativo en donde cualquier persona se pudiera registrar y publicar nuevos Posts. Los usuarios deben poder registrarse, ingresar, 
-              listar los posts, ver los posts, crear posts, editar los posts, eliminar los posts y comentarlos.
-            </p>
-          </div>
-          <figure class="project-imageContainer">
-            <img class="project-image" width="450" src="images/Blog-Alejandro-Cuellar.png" alt="Imagen proyecto Blog en Makeit Real">
-          </figure>
-        </article>
-      <article class="project">
-          <div class="project-details">
-            <h3 class="project-title">Flow Overstack</h3>
-            <h6 class="project-course">RAILS / AJAX / JQUERY / DEVICE GEM / BOOTSTRAP / HTML / CSS</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 14/06/2019</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://flow-over-stack-ach.herokuapp.com/" target="_blank">Sitio web en Heroku </a> </small></p> 
-            <p class="project-url"><small><strong>Consultalo en github:</strong> <a href="https://github.com/acuellarh/FlowOverstackv2" target="_blank">https://github.com/acuellarh/FlowOverstackv2</a> </small></p>                 
-            <p class="project-description">Este proyecto consiste en construir un clon de StackOverflow, un sitio muy popular de preguntas y respuestas de programación.Para solucionarlo, se implementó
-              asociaciones polimorficas ,se configuro protección de acceso a las vistas, 
-              se utilizo Ajax y Jquery con el fin de crear las respuestas y los comentarios,
-              se implementó un metodo en el modelo de answer y questions para la caracteristica de los votos y
-              se implemento la opción de busqueda tanto en el contenido como el titulo de la pregunta                 
-            </p>
-          </div>
-          <figure class="project-imageContainer">
-            <img class="project-image" width="450" src="images/image_flow.png" alt="Imagen proyecto Flow en Makeit Real">
-          </figure>
-        </article>
-      </div>      
-    </section>
-
-    <section id="eventos" class="">      
-      <div class="container">
-        <h2>Experiencia</h2>
-      <article class="project">
-        <div class="">
-          <h3 class="project-title">Tigo-Une</h3>
-          <p class="project-date"><strong>2014 - 2019</strong></p>
-          <p class=""><strong>Cargo:</strong> Ingeniero de Aseguramiento</p>
-          <p class="project-description">Durante dos años estuve apoyando el área de aseguramiento apoyando a los compañeros de factibilidades e instalaciones de servicios empresariales con el fin de cumplir con los requerimientos colocados por el área comercial. Durante este periodo desarrollé habilidades administrativas, manejo de personal, elaboración de informes, gestión de presupuesto, trabajo bajo presión y trabajo en equipo.</p>
-          <p class="project-description">En los siguientes años he trabajado apoyando en la gestión de compras, gestionando con las diferentes areas de la empresa para asegurar que se tengan los equipos necesarios para la implementación de servicios de portafolio avanzado para clientes empresariales, durante esta labor he estado apoyando con la elaboración de los requerimientos para el desarrollo de plataformas web para el control de inventario.</p>
-        </div>
-      </article>
-      <article class="project">
-        <div class="">
-          <h3 class="project-title">Huawei Technologies Co. Ltda.</h3>
-          <p class="project-date"><strong>2009 - 2014</strong></p>
-          <p class=""><strong>Cargo:</strong> Ingeniero IT</p>
-          <p class="project-description">Responsable del soporte de redes LAN, instalación, configuración, gestión y solución de problemas en la plataforma LAN y TI de Huawei Colombia y Norte de Latinoamérica. Encargado de la configuración de switches, routers, controladoras inalámbricas, Access Points , PBX, dispositivos de VOIP, videoconferencias, Telepresencias Y CCTV.</p>
-          <p class="project-description">Líder de equipo de IT en Colombia, responsable de atención a usuarios VIP. Durante mis años de trabajo en Huawei estuve en varios proyectos apoyando en planeación, ejecución, control y cierre exitoso de proyectos de la plataforma de TI e implementación de oficinas nuevas de la compañía. De los mayores logros a resaltar fue el trabajo en equipo y la mejora considerable del idioma Ingles.</p>
-        </div>
-      </article>
-      <article class="project">
-        <div class="">
-          <h3 class="project-title">ISSC- Subsidiaria IBM </h3>
-          <p class="project-date"><strong>2009 - 2010</strong></p>
-          <p class=""><strong>Cargo:</strong> Agente de Soporte en Sitio </p>
-          <p class="project-description">Encargado del soporte a usuarios finales en las oficinas de la direccón general del banco BBVA, encargado de la configuración, instalación de aplicativos bancarios. Durante este trabajo desarrollé habilidades para el manejo de sistemas operativos Windows y Linux básico </p>
-        </div>
-      </article>
-      </div>      
-    </section>
-    <section id="" class="">      
-        <div class="container">
-          <h2>Formación Profesional</h2>
-          <article class="project1">
-            <div class="">
-              <h3 class="project-title">Rails Full Stack Developer</h3>
-              <p class=""><strong>BootCamp Make it Real</strong></p>
-              <p class=""> Medellín 2019</p>
-            </div>
-            <br>
-            <div class="">
-              <h3 class="project-title">Especialista en Gerencia para Ingenieros</h3>
-              <p class=""><strong>Universidad Pontificia Bolivariana</strong></p>
-              <p class=""> Medellín 2016</p>
-            </div>
-            <div class="">
-              <h3 class="project-title">Ingeniero en Telecomunicaciones</h3>
-              <p class=""><strong>Universidad Militar Nueva Granada</strong></p>
-              <p class=""> Bogotá 2007</p>
-            </div>
-          </article>  
-        </div>              
-      </section>
-    <section id="contacto" class="contact">
-      <div class="container">
-        <form action="/suscripcion/" class="form-email">
-          <h3>¿Creamos algo juntos?</h3>
-          <p class="">                   
-            <a href="https://api.whatsapp.com/send?phone=573044759796&amp;text=Hola!%20Alejandro%20Trabajamos%20Juntos?" target="_blank">            
-             <h3>Contáctame a traves de WhatsApp</h3>             
-            </a>
-          </p> 
-        </form>
-        <div class="social">
-          <a href="https://twitter.com/acuellarh" target="_blank" class="social-link twitter"></a>
-          <a href="https://www.facebook.com/alejandro.c.huertas" target="_blank" class="social-link facebook"></a>
-          <a href="https://github.com/acuellarh" target="_blank" class="social-link github"></a>
-          <a href="https://instagram.com/acuellarh" target="_blank" class="social-link instagram"></a>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div>
-          <p>
-            Designed with love by <a href="https://twitter.com/thespianartist" target="_blank">@thespianartist</a>
-          </p>
-        </div>
-      </div>
-    </footer> 
-    <script>
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
 
 
-    const ipad = window.matchMedia('screen and (max-width:767px)');//Función que recibe una consulta a los medios  
-    //selector para traer la clase menu
-    const menu = document.querySelector('.menu');
-    // console.log(menu);
-    //selector para detectar las variaciones en el boton
-    const burgerButton = document.querySelector('#burger-menu'); // Se debe crear un selector de ID los cuales se llaman con #
-    // console.log(burgerButton);
-    //función para detectar eventos, para este caso un click   
+/* seletor de etiqueta  header - section - article - nav */
+/* header {
+  background: pink;
+  color: red
+} */
 
-    ipad.addListener(validation); // Adiciona un escuchador
+/* selector descendente  */
+/* body header div nav ol li a  */
 
-    function validation (event){
-      // console.log(event.matches);
-      if(event.matches){  // Si el matches se "true", es decir, si detecta pantalla inferior a 767
-        burgerButton.addEventListener('click',hideShow); // Encendemos el EventListener
-      }else
-      burgerButton.removeEventListener('click',hideShow); // Apagamos el EventListener
-    }  
-//
-    validation(ipad);//Objetivo es forzar esta función apenas carga la página, 
-                    //dado que antes requiria de que se ejecutara un resize
+/* selector de clase . */
 
-    function hideShow(){  
-      if(menu.classList.contains('is-active')){
-      menu.classList.remove('is-active'); //A la clase 'menu' añada el selector 'is-active'
-      }
-       else
-        menu.classList.add('is-active'); //A la clase 'menu' añada el selector 'is-active'
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
+
+
+
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* background gris = #1b2127 */
+/* celeste = #026fff */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?fynqng');
+  src:  url('../fonts/icomoon.eot?fynqng#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fynqng') format('truetype'),
+    url('../fonts/icomoon.woff?fynqng') format('woff'),
+    url('../fonts/icomoon.svg?fynqng#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*selector -aplica a clases que inicien con "icon-" o finalicen " icon-" */
+/*ej "icon-menu" o "button icon-menu" */
+[class^="icon-"], [class*=" icon-"] {  
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 0;
+  /* margin: 100px 150px 70px 30px; */
+  /* text-transform: uppercase; */
+  /* text-decoration: dashed; */
+}
+h1 strong {
+  color: #026fff;
+}
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero {
+  height: 300px;
+  /* background-image: url('../images/hero.jpg'); */
+  background-color: #1b2127;
+  /* background-size: 500px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-image{
+  object-fit: cover;
+}
+
+
+.portfolio {
+  background: #fafafa;
+  padding: 20px;
+  /* background: red; */
+}
+
+.project {
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* color: blue; */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  /* margin: 10px; */
+  margin-bottom: 15px;
+  /* margin-right
+  margin-left 
+  margin-top */
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project1 {
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* color: blue; */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  /* margin: 10px; */
+  margin-bottom: 15px;
+  /* margin-right
+  margin-left 
+  margin-top */
+  padding: 20px;
+  background: white;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+.project-description {
+  font-size: 20px;
+}
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+/* .project-date {
+  margin: 10px 0;
+} */
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+.project-details {
+  /* width: 500px; */
+  width: 50%;
+}
+
+.project-imageContainer {
+  /* width: 500px; */
+  width: 50%;
+}
+
+.project-imageContainer img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;   
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  height: inherit;  
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid red;
+
+  flex-shrink: 0;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-list-title {
+  margin-left: 20px;
+}
+.event { 
+  margin: 1%;
+  width: 48%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+  z-index: 0;
+}
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;  
+}
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event-description {
+  text-align: left;
+}
+
+.event-url {
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+
+.social-link.twitter {
+  background-image: url('../images/twitter.svg');
+}
+.social-link.facebook {
+  background-image: url('../images/facebook.svg');
+}
+.social-link.github {
+  background-image: url('../images/github.svg');
+}
+.social-link.instagram {
+  background-image: url('../images/instagram.svg');
+}
+
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../images/envelope.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.form-email h3 { 
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 1000px; 
+  flex: 1;          /* Le decimos “toma todo el ancho disponible en el elemento */ 
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.html-video{
+  width: 100%;
+  height: auto;
+}
+
+.youtube-video{
+  /* width: 100%; */
+  /* height: auto; */
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;  /* No le quede duda de tomar todo el tamaño */
+  height: 100%; /* No le quede duda de tomar todo el tamaño */
+  
+}
+.flexible-video{
+  width: 100%;
+  height: 0;           /* Se deja el alto en "0", el alto se define en el padding */ 
+  padding-top:56.25%;  /* truco de CSS, aca es donde configuramos el % de relación 16/9 */
+  background: blue;
+  position: relative; /*La caja debe tener un tamaño absoluto,por lo cual lo posicionamos como relativo */
+                      /* esta caja contiene a youtube-video*/
+}
+
+.burger-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  /* 50% con respecto al width definido de 40px previamente */ 
+  background-color:rgba(0, 0, 0, 0.8);/* red,green,blue,opacidad - tres primeros varian de 1-255, opacidad varia de 0 a 1 */
+  display: none;  /* Cambiamos para que tome el ancho y alto definido */
+  /* display:flex;
+  align-items: center;
+  justify-content: center; */
+  line-height: 40px;  /* Opción para centrar, tamaño igual al alto del elemento */
+  text-align: center;
+  position: fixed;
+  z-index: 4;  /* Se posicione por encima de los otros elementos del sitio web */
+  left: 5px;
+  top: 5px; 
+  color: white;
+
+}
+
+/* Desktop first, empezar desde el MQ más grande */
+
+@media screen and (max-width:1023px) {/* 1023px por que IPAD girado alcanza los 1024px*/
+  .event-list-title{
+    margin-left: 0;
+  }
+  .portfolio{
+    padding: 0;
+  }
+  .container{
+    padding: 0 1em;/* Separar del borde */
+  }
+  .hero{
+    height: auto;
+    position: relative; /*definir para que la posición absoluta de la imagen funcione */
+                         /*y no ocupe hasta el tamaño del menu */
+    overflow: hidden;  /* Hacer que el desborde de la imagen en el hero se oculte */ 
+    padding: 2em;                     
+  }                     
+
+  .hero img{
+    position: absolute;
+    z-index: 1;  /* definir el orden cuando se supersone, para este caso este es el fondo */
+    left: 0;   /* Hacer que la imagen se estire en todas sus direciones */
+    right: 0;  /* Hacer que la imagen se estire en todas sus direciones */
+    top: 0;    /* Hacer que la imagen se estire en todas sus direciones */
+    bottom: 0; /* Hacer que la imagen se estire en todas sus direciones */
+    width: 100%;  /* Hacer que la imagen se estire en todas sus direciones */
+  }
+  h1{
+    font-size: 2em;
+    z-index: 2;  /* definir el orden cuando se supersone, para este caso este va sobre la imagen */
+  }
+
+}
+
+@media screen and (max-width:767px) {
+
+  h2{
+    font-size:1.2em;
+    margin: 0.5em 0;
+  }
+  .burger-button{
+    display: block;
+  }
+  
+  .header{
+    display: block;
+    height: auto;
+  }
+  .header ol{
+    display: block;
+  }
+  .header ol li{
+    height:50px; 
+  }
+  .header a{
+    justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 0.5em;
+  }
+  .header .logo {
+    text-align: center; 
+  }
+  .menu{
+  position: fixed;  /*Para que nos persiga por toda la página*/
+  background:rgb(5, 111, 255, 0.9);
+  z-index: 3;
+  top: 0;  /*Ubicar la caja del menú en la parte superior*/
+  /*left: 0;*/ /*Ubicar la caja del menú en la parte izquierda*/
+  left: -100vw; /* utilizamos el ancho de 100vw definido en width para ocultar el menú */
+   width: 100vw;
+  /* height: 100vh; */
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  }
+  .menu.is-active{  /*clase para que el menu aparezca*/
+    left: 0;
+  }
+
+  .project {
+    display: block;
+  }
+  .project-imageContainer{
+    width: auto;
+    text-align: center; 
+  }
+  .project-details{
+    width: auto;
+    font-size: 16px;     
+  }
+
+  .project-course, .project-date, .project-url{
+  margin: 0.3em;
+  }
+
+  .project-title{
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .project-course{
+    font-size: 0.7em;
+  }
+  .project-date{
+    font-size: 1em;
+  }
+  .project-url{
+    font-size: 1em;
+  }
+  .project-description{
+    font-size: 1em;
+  }
+  .event {
+    width: auto;
+    flex-shrink: initial;  /* Con el fin de quitar el scroll horizontal */
+  }
+  .event img {    /* Se aplica el estilo directamente en la etiqueta dado que en ella definimos*/
+    width: 100%;  /*  un tamaño de 500px previamente en el código html*/
+  }               
+}
+
+
+@media screen and (max-width:480px) {
+  h1{
+    font-size: 1.5em;
+  }
+  .project-details{
+    font-size: 14px; 
+  }
+  .event-detail {
+    /* margin: -40px 10px 10px 10px; */
+    /* 1em = 16px (por defecto, dado que no predefinimos el font-size: ) */
+    margin: -2em 0.5em 0.5em ;
+    padding: 1em;
     }
-    </script>
-  </body>
-</html>
+  
+   .contact{
+     height: auto;    /* Ajustamos el ancho para que los elementos no se apilen */
+     padding: 1em 0;  /* espacio arriba y abajo */
+     display: block;  /* resetea vista de flex para centrar elementos */  
+     text-align: center; /* Centrar elementos */  
+   }
+   
+   .form-email button {
+     margin: 1em auto;  /* Para centrar es necesario definirle un margen */ 
+   }
+   .form-email h3 {
+     margin-top: 0;  /* quitarle margen al titulo, para que la imagen general tuviera el mismo espacio */ 
+   }
+   .footer{
+     display: block;
+     text-align: center;
+     border: 1px solid transparent; /* Rellenar un margin y quitar es espacio en blanco */ 
+   }
+
+}
+
+@media screen and (max-width:320px) {
+  h1{
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5)    
+  }
+  .hero{
+    padding: 2em 1em;
+  }
+  .project-details{
+    width: auto;
+    font-size: 10px; 
+  }
+  .social-link{
+    width: 40px;
+    height: 40px;
+    /* background-size: x y; */
+    background-size: 100%; /* Si queremos que tomen el mismo tamaña que ya esta definido en width y heigth */
+  }
+}
