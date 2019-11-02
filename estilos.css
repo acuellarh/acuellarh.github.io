@@ -347,16 +347,16 @@ figure {
 }
 
 .social-link.twitter {
-  background-image: url('../twitter.svg');
+  background-image: url('./twitter.svg');
 }
 .social-link.facebook {
-  background-image: url('../facebook.svg');
+  background-image: url('/facebook.svg');
 }
 .social-link.github {
   background-image: url('github.svg');
 }
 .social-link.instagram {
-  background-image: url('instagram.svg');
+  background-image: url(instagram.svg);
 }
 
 
